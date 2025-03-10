@@ -1,27 +1,5 @@
 import UIKit
 
-//var greeting = "Hello, playground"
-
-//func summation(Int: a, Int: b) -> Double {
-//    return a + b
-//}
-//
-//func difference(Int: a, Int: b) -> Double {
-//    return a - b
-//}
-//
-//func multiplication (int: a, Int: b) -> Double {
-//    let f = a * b
-//    return f
-//}
-//
-//func division(Int: a, Int: b) -> Double {
-//    return a / b
-//}
-//
-//let d = division(a: 4, b: 5)
-//print(d)
-
 //1. Написать функции, которая:
 //- Будет просто выводить в консоль ”Hello, world!”.
 //- Будет принимать аргумент “имя” и выводить в консоль “Hello, имя” (вызов функции
