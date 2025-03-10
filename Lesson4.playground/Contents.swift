@@ -10,7 +10,7 @@ func printHelloWorld() {
     print("Hello, world!")
 }
 // TODO: Пробел перед {
-func printHi(_ name: String){
+func printHi(_ name: String) {
     print("Hello, \(name)")
 }
 printHi("Max")
@@ -41,7 +41,7 @@ func calculateTheAreaOfACircle(radius: Double) -> Double {
 func isItNightTonight(hour: Int) -> String {
     if hour > 0 && hour < 12 {
         return "Night"
-    } else if hour >= 12 && hour <= 24  {
+    } else if hour >= 12 && hour <= 24 {
         return "Day"
     } else {
         return "Incorect time"
@@ -99,20 +99,19 @@ func factorialCalculation(number: Int) -> Int {
 
 func calculatingTheFibonacciSequenceNumber(_ n: Int) -> Int {
     // TODO: Пробел перед {
-    if n == 0{
+    if n == 0 {
         return 0
     // TODO: else пишем в одну строку после } и пробелы перед открывающейся скобкой
-    }
-    else if n == 1{
+    } else if n == 1 {
         return 1
     }
     // TODO: Пробелы с двух сторон между арифетическими знакакми
-    return calculatingTheFibonacciSequenceNumber(n-1) + calculatingTheFibonacciSequenceNumber(n-2)
+    return calculatingTheFibonacciSequenceNumber(n - 1) + calculatingTheFibonacciSequenceNumber(n - 2)
 }
 
 func printTheFibonacciSequence(index: Int) {
     // TODO: Не нужны пробелы перед и после ...
-    for iterator in 0 ... index {
+    for iterator in 0...index {
         print(calculatingTheFibonacciSequenceNumber(iterator))
     }
 }
