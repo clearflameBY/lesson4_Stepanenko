@@ -9,6 +9,7 @@ import UIKit
 func printHelloWorld() {
     print("Hello, world!")
 }
+// TODO: Пробел перед {
 func printHi(_ name: String){
     print("Hello, \(name)")
 }
@@ -97,16 +98,20 @@ func factorialCalculation(number: Int) -> Int {
 //введённого индекса. Например fib(n:6) -> 0, 1, 1, 2, 3, 5, 8
 
 func calculatingTheFibonacciSequenceNumber(_ n: Int) -> Int {
+    // TODO: Пробел перед {
     if n == 0{
         return 0
+    // TODO: else пишем в одну строку после } и пробелы перед открывающейся скобкой
     }
     else if n == 1{
         return 1
     }
+    // TODO: Пробелы с двух сторон между арифетическими знакакми
     return calculatingTheFibonacciSequenceNumber(n-1) + calculatingTheFibonacciSequenceNumber(n-2)
 }
 
 func printTheFibonacciSequence(index: Int) {
+    // TODO: Не нужны пробелы перед и после ...
     for iterator in 0 ... index {
         print(calculatingTheFibonacciSequenceNumber(iterator))
     }
